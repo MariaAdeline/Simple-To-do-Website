@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    background-image:linear-gradient(to right,  #009987,#990012,#8B8000 );
+}
+.container{
+    width:95%;
+    margin:auto;
+}
+.top{
+    width: 100%;
+    margin:25px 0;
+    text-align: center;
+    font: size 25px;
+}
+.user_input{
+    text-align: center;
+}
+.user_input input{
+    width:50%;
+    outline: none;
+    padding:6px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border: 1px solid yellowgreen;
+    
+}
+.user_input button{
+    cursor:pointer;
+    padding:6px;
+    width:40px;
+    outline:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color:yellowgreen ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:1px solid yellowgreen;
+}
+.user_input button:hover{
+    background-color: transparent;
+    color:white;
+}
+
+.Lists{
+    width:500px;
+    margin:auto;
+}
+.list{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius:2px;
+    height:auto;
+    width:100%;
+    padding:15px;
+    color:black;
+    font-size:1rem;
+    background-color: white;
+}
+.list:hover{
+    box-shadow: yellowgreen;
+    border:1px solid yellowgreen;
+}
+.list i{
+    cursor:pointer;
+    margin:0 5px;
+}
+.like.fa-check{
+    color:limegreen;
+}
+.unlike.fa-check{
+    color:lightgray;
+}
+
+
+footer{
+    position:relative;
+    margin-top:30rem;
+    text-align: center;
+}
