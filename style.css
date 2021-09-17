@@ -72,14 +72,6 @@ body{
     cursor:pointer;
     margin:0 5px;
 }
-.like.fa-check{
-    color:limegreen;
-}
-.unlike.fa-check{
-    color:lightgray;
-}
-
-
 footer{
     position:relative;
     margin-top:30rem;
