@@ -1,6 +1,5 @@
 var Li=document.getElementsByClassName("Lists")[0];
 const input=document.getElementById("input");
-const delicon=document.getElementById("trash");
 input.addEventListener("keydown",function(event){
     if(event.key ==="Enter")
       addItem();
@@ -10,7 +9,6 @@ function addItem(){
     var list2=document.createElement("div");
     var doneicon=document.createElement("i");
     var delicon=document.createElement("i");
-    var editicon=document.createElement("i");
     list1.className="list";
     list1.innerHTML='<div>'+input.value+'</div>';
     doneicon.className="fas fa-check";
