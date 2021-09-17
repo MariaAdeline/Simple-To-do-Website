@@ -38,5 +38,4 @@ function addItem(){
     list1.appendChild(list2);
     Li.appendChild(list1);
     input.value='';
-    
 }
