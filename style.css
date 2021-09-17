@@ -65,7 +65,7 @@ body{
     background-color: white;
 }
 .list:hover{
-    box-shadow: yellowgreen;
+    box-shadow: 5px yellowgreen;
     border:1px solid yellowgreen;
 }
 .list i{
